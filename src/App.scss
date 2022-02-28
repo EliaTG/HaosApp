@@ -1,0 +1,218 @@
+@import '../src/utilities/variables.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .App{
+        background-color: $bgPrimary;
+        color: white;
+        height: 100vh;
+        nav{
+            display: flex;
+            height: 15vh;
+            align-items: center;
+            padding: 0 0 0 40px;
+            .earth{
+                svg{
+                    height: 25px;
+                    width: 25px;
+                }
+            } 
+            .haostitle{
+              font-size: 18px;
+              margin: 0 0 5px 5px;
+            }
+        }
+        //Register
+        .register{
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            padding: 0 0 0 40px;
+            margin: 50px 0 0 0;
+            h1{
+                font-size: 40px;
+            }
+            p{
+                font-size: 15px;
+                color: #898f9c;
+                margin: 10px 0 20px 10px;
+            }
+            p a{
+                color: $blue;
+                text-decoration: none;
+            }
+            .registerform{
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                width: 500px;
+                margin: 10px 0;
+                input{
+                    height: 50px;
+                    width: 235px;
+                    margin: 10px 5px;
+                    padding:5px 10px;
+                    color: white;
+                    outline: none;
+                    border: none;
+                    background: transparent;
+                    background-color: #2e3343;
+                    border-radius: 15px;
+                    ::placeholder { 
+                        color: blue!important; 
+                    }
+                }
+                .name{
+                    width: 490px;
+                    .name:first-child{
+                        margin: 0 20px 0 0!important;
+                    }
+                }
+                #email,#pass{
+                    width: 480px;
+                }
+                button.btnregister{
+                    background-color: $blue;
+                    color: white;
+                    outline: none;
+                    width: 200px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 15px;
+                    margin: 10px 5px;
+                    cursor: pointer;
+                }
+            }
+        }
+        //Login
+        .Login{
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            padding: 0 0 0 67px;
+            margin: 50px 0 0 0;
+            .loginform{
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                width: 400px;
+                margin: 10px 0;
+                input{
+                    height: 50px;
+                    width: 320px;
+                    margin: 10px 5px;
+                    padding:5px 10px;
+                    color: white;
+                    outline: none;
+                    border: none;
+                    background: transparent;
+                    background-color: #2e3343;
+                    border-radius: 15px;
+                    // ::placeholder { 
+                    //     color: blue!important; 
+                    // }
+                }
+                p a{
+                color: $blue;
+                text-decoration: none;
+                }
+                button.btnlogin{
+                    background-color: $blue;
+                    color: white;
+                    outline: none;
+                    width: 320px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 15px;
+                    margin: 10px 5px;
+                    cursor: pointer;
+                }
+                .links{
+                    display: flex;
+                    flex-direction: row;
+                    margin:0 0 0 10px; 
+                    p{
+                        margin:2px 3px; 
+                    }
+                }
+            }
+            .solarsystem{
+                height: 200px;
+                width: 140px;
+                background-repeat: no-repeat; 
+            }
+        }
+        .HomePage{
+            height: 100vh;
+            .navbar{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+              .LinksPlanets{
+                  display: flex;
+                  align-items: center;
+                  margin: 0 60px 0 0;
+                   a{
+                        color: white;
+                        text-decoration: none;
+                        margin: 5px 15px;
+                    }       
+              }  
+            }
+            .PlanetsCard{
+                height: 80vh;
+                width: auto;
+                margin: 10px 40px;
+                display: grid;
+                column-gap: 20px;
+                grid-template-columns: 210px 210px 210px 210px;
+                justify-content: center;
+                a{
+                    text-decoration: none; 
+                }
+                .mercury,.venus,.earth, .mars,.jupiter,.saturn,.uranus,.neptune{
+                    height: 220px;
+                    width: 200px;
+                    background-color: $blue;
+                    border-radius: 15px;
+                    margin: 15px 0 0 0;
+                    text-decoration: none;
+                    img{
+                        width: 120px;
+                        height: 120px;
+                        display: flex;
+                        margin: 10px auto;
+                    }
+                    h3,p{
+                        color: white;
+                        text-align: center;
+                        margin: 5px;
+                    }
+
+                }
+                .mercury{
+                    background-color: #ab6538;
+                }
+            }
+        }
+        .MercuryPage{
+            height: 100vh;
+            .navbar{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+              .LinksPlanets{
+                  display: flex;
+                  align-items: center;
+                  margin: 0 60px 0 0;
+                   a{
+                        color: white;
+                        text-decoration: none;
+                        margin: 5px 15px;
+                    }       
+                }  
+           }
+       }
+    }
+}
