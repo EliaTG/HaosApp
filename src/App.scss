@@ -196,7 +196,7 @@
                 }
             }
         }
-        .MercuryPage,.VenusPage{
+        .MercuryPage,.VenusPage,.EarthPage,.MarsPage,.JupiterPage,.SaturnPage,.UranusPage{
             height: 100vh;
             .navbar{
                 display: flex;
@@ -214,23 +214,7 @@
                 }  
            }
         }  
-        .MercuryPage,.VenusPage{
-                    //     height: 100vh;
-                    //     .navbar{
-                    //         display: flex;
-                    //         flex-direction: row;
-                    //         justify-content: space-between;
-                    //       .LinksPlanets{
-                    //           display: flex;
-                    //           align-items: center;
-                    //           margin: 0 60px 0 0;
-                    //            a{
-                    //                 color: white;
-                    //                 text-decoration: none;
-                    //                 margin: 5px 15px;
-                    //             }       
-                    //         }  
-                    //    }
+        .MercuryPage,.VenusPage,.EarthPage,.MarsPage,.JupiterPage,.SaturnPage,.UranusPage{
            .container{
                 display: flex;
                 flex-direction: row;

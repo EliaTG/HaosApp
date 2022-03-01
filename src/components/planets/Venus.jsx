@@ -19,19 +19,19 @@ function Venus() {
           <div className="container">
 
                 <div className="info">
-                  <img src={VenusImg} alt="Mercury Photo" />
+                  <img src={VenusImg} alt="Venus Photo" />
                   <h1>Venus</h1>
-                  <p>The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's Moon.</p>
-                  <p>Along with Venus, Earth, and Mars, Mercury is one of the rocky planets. It has a solid surface that is covered with craters like our Moon. It has a thin atmosphere, and it doesn’t have any moons. Mercury likes to keep things simple.</p>
+                  <p>Venus is the second planet from the Sun and Earth’s closest planetary neighbor. Even though Mercury is closer to the Sun, Venus is the hottest planet in our solar system. Its thick atmosphere is full of the greenhouse gas carbon dioxide, and it has clouds of sulfuric acid. The atmosphere traps heat, making it feel like a furnace on the surface. It’s so hot on Venus, the metal lead would melt.</p>
+                  <p>Venus is sometimes called Earth’s twin because it’s similar in size and structure, but the planets are very different in other ways.</p>
                 </div>
                 <div className="facts">
                   <div className="speed">
                       <p> Average orbital speed</p>
-                      <small>47.87 km/s</small>
+                      <small>35.02 km/s</small>
                   </div>
                   <div className="distance">
                       <p> Distance From Sun </p>
-                      <small>0.4 AU</small>
+                      <small>0.7 AU</small>
                   </div>
                   <div className="moons">
                       <p> Moons</p>
@@ -39,7 +39,7 @@ function Venus() {
                   </div>
                   <div className="EarthDays">
                       <p> Earth Days </p>
-                      <small>88</small>
+                      <small>225</small>
                   </div>
                   <div className="EarthDays">
                       <p> Planet Type </p>
@@ -47,7 +47,7 @@ function Venus() {
                   </div>
                   <div className="EarthDays">
                       <p> Ringless </p>
-                      <small>There are no rings around Mercury.</small>
+                      <small>There are no rings around Venus.</small>
                   </div>  
                 </div>
           </div>
