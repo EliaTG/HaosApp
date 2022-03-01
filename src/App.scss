@@ -196,7 +196,7 @@
                 }
             }
         }
-        .MercuryPage{
+        .MercuryPage,.VenusPage{
             height: 100vh;
             .navbar{
                 display: flex;
@@ -213,6 +213,64 @@
                     }       
                 }  
            }
+        }  
+        .MercuryPage,.VenusPage{
+                    //     height: 100vh;
+                    //     .navbar{
+                    //         display: flex;
+                    //         flex-direction: row;
+                    //         justify-content: space-between;
+                    //       .LinksPlanets{
+                    //           display: flex;
+                    //           align-items: center;
+                    //           margin: 0 60px 0 0;
+                    //            a{
+                    //                 color: white;
+                    //                 text-decoration: none;
+                    //                 margin: 5px 15px;
+                    //             }       
+                    //         }  
+                    //    }
+           .container{
+                display: flex;
+                flex-direction: row;
+                justify-content:center;
+               .info{
+                   width: 550px;
+                   img{
+                    width: 500px;
+                    height: 250px;
+                    background: cover;
+                   }
+                   h1{
+                       margin: 10px 0px;
+                    }
+                    p{
+                        margin: 10px 0; 
+                    }
+                }
+                .facts{
+                    width: 300px;
+                    margin: 0 0 0 30px;
+                    div{
+                        background-color: #2e3343;
+                        margin: 10px;
+                        height: 60px;
+                        border-radius: 25px;
+                        // text-align: center;
+                        display: flex;
+                        // justify-content:center;
+                        // align-items: center;
+                        flex-direction: column;
+                        p, small{
+                            margin: 5px 0px; 
+                            padding: 0 0 0 40px;
+                        }
+                   
+                    }
+                }
+            }
+
        }
     }
 }

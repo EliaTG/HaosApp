@@ -14,8 +14,6 @@ function Homepage() {
                         <Link to="/activities">Activities</Link>
                         <Link to="/login">Log In</Link>
                          <Link to="/register">Sign Up</Link>
-                        {/* <Link className="earthlink" to="/earth">Earth</Link>
-                        <Link to="/jupiter">Jupiter</Link> */}
                     </div>
 
         </div>
