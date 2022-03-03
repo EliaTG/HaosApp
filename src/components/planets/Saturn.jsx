@@ -1,7 +1,7 @@
 import React from 'react'
 import  Navbar from './../Navbar';
 import { Link } from 'react-router-dom';
-import SaturnImg from './../images/mars.png';
+import SaturnImg from './../images/saturn.jpg';
 
 
 function Saturn() {

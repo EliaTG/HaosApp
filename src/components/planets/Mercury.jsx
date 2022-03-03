@@ -1,14 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import  Navbar from './../Navbar';
-// import './../../App.scss'
-// import { MdOutlineSpeed } from "react-icons/fc";
 import MercuryImg from './../images/mercuryphoto.jpg';
-import { AccessAlarm, Speed,CalendarToday,Public } from '@mui/icons-material';
-import NightlightRoundIcon from '@mui/icons-material/NightlightRound';
-
-// import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
-// import PublicIcon from '@mui/icons-material/Public';
 
 
 function Mercury() {
@@ -34,7 +27,7 @@ function Mercury() {
                 </div>
                 <div className="facts">
                   <div className="speed">
-                      <p> <Speed/> Average orbital speed</p>
+                      <p> Average orbital speed</p>
                       <small>47.87 km/s</small>
                   </div>
                   <div className="distance">
@@ -42,15 +35,15 @@ function Mercury() {
                       <small>0.4AU</small>
                   </div>
                   <div className="moons">
-                      <p> <NightlightRoundIcon/> Moons</p>
+                      <p> Moons</p>
                       <small>0</small>
                   </div>
                   <div className="EarthDays">
-                      <p> <CalendarToday/> Earth Days </p>
+                      <p>Earth Days </p>
                       <small>88</small>
                   </div>
                   <div className="PlanetType">
-                      <p> <Public/>Planet Type </p>
+                      <p>Planet Type </p>
                       <small>Terrestial</small>
                   </div>
                   <div className="Rings">

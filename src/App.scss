@@ -18,6 +18,10 @@
                     width: 25px;
                 }
             } 
+            a{
+                text-decoration: none;
+                color: white;
+            }
             .haostitle{
               font-size: 18px;
               margin: 0 0 5px 5px;
@@ -172,11 +176,12 @@
                     text-decoration: none; 
                 }
                 .mercury,.venus,.earth, .mars,.jupiter,.saturn,.uranus,.neptune{
-                    height: 220px;
+                    height: 225px;
                     width: 200px;
                     background-color: $blue;
                     border-radius: 15px;
                     margin: 15px 0 0 0;
+                    padding: 3px 0 0 0;
                     text-decoration: none;
                     img{
                         width: 120px;
@@ -194,9 +199,27 @@
                 .mercury{
                     background-color: #ab6538;
                 }
+                .venus{
+                    background-color: #df5e13;
+                }
+                .mars{
+                    background-color:#f66b1f;
+                }
+                .jupiter{
+                    background-color: #d47072;
+                }
+                .saturn{
+                    background-color: #f5b03f;
+                }
+                .uranus{
+                    background-color: #1e6e8f;
+                }
+                .neptune{
+                    background-color: #acafe9;
+                }
             }
         }
-        .MercuryPage,.VenusPage,.EarthPage,.MarsPage,.JupiterPage,.SaturnPage,.UranusPage{
+        .MercuryPage,.VenusPage,.EarthPage,.MarsPage,.JupiterPage,.SaturnPage,.UranusPage,.NeptunePage{
             height: 100vh;
             .navbar{
                 display: flex;
@@ -214,7 +237,7 @@
                 }  
            }
         }  
-        .MercuryPage,.VenusPage,.EarthPage,.MarsPage,.JupiterPage,.SaturnPage,.UranusPage{
+        .MercuryPage,.VenusPage,.EarthPage,.MarsPage,.JupiterPage,.SaturnPage,.UranusPage,.NeptunePage{
            .container{
                 display: flex;
                 flex-direction: row;

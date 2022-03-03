@@ -1,7 +1,7 @@
 import React from 'react';
 import  Navbar from './../Navbar';
 import { Link } from 'react-router-dom';
-import JupiterImg from './../images/mars.png';
+import JupiterImg from './../images/Jupiter.jpg';
 
 function Jupiter() {
   return (
